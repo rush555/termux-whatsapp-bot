@@ -136,10 +136,10 @@ conn.sendMessage(id, menu.menu3 ,MessageType.text);
    {
       let is = m.message.conversation.toLocaleLowerCase()
 
-      if (is == '!pantun')
+      if (is == '!alisson')
       {
 
-         fetch('https://raw.githubusercontent.com/pajaar/grabbed-results/master/pajaar-2020-pantun-pakboy.txt')
+         fetch('alisson 😡😡')
             .then(res => res.text())
             .then(body =>
             {
